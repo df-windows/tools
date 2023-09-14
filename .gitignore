@@ -6,4 +6,5 @@
 !*/
 !/.editorconfig
 !/.gitignore
+!/.ssh/config
 !/readme.md
