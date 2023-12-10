@@ -4,6 +4,7 @@
 # http://stackoverflow.com/questions/8024924#comment15884195_8025106
 *
 !*/
+!/.bash_profile
 !/.editorconfig
 !/.gitignore
 !/.ssh/config
