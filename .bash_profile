@@ -15,9 +15,11 @@ export HISTSIZE=99999999
 export LS_OPTIONS='--color=auto -h'
 export TERM=xterm-256color
 # 2023-11-25 "How did I fix the «Could not open input file» issue for Composer in Cygwin?": https://df.tips/t/1032
-# 2023-12-10 # From now on Composer 2 is the default one.
+# 2023-12-10 From now on Composer 2 is the default one.
 alias composer='php C:\\tools\\php\\composer'
 alias composer1='php C:\\tools\\php\\composer1'
 alias composer2='php C:\\tools\\php\\composer'
 alias composer22='php C:\\tools\\php\\composer22'
+# 2023-12-24 "Install WP-CLI": https://github.com/thehcginstitute-com/wp/issues/11
+alias wp='php C:\\tools\\php\\wp'
 [[ -f ~/.bashrc ]] && source ~/.bashrc
