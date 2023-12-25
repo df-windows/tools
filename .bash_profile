@@ -20,6 +20,6 @@ alias composer='php C:\\tools\\php\\composer'
 alias composer1='php C:\\tools\\php\\composer1'
 alias composer2='php C:\\tools\\php\\composer'
 alias composer22='php C:\\tools\\php\\composer22'
-# 2023-12-24 "Install WP-CLI": https://github.com/thehcginstitute-com/wp/issues/11
+# 2023-12-24 "Install WP-CLI": https://github.com/thehcginstitute-com/167.71.186.128/issues/1
 alias wp='php C:\\tools\\php\\wp'
 [[ -f ~/.bashrc ]] && source ~/.bashrc
