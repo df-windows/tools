@@ -7,5 +7,6 @@
 !/.bash_profile
 !/.editorconfig
 !/.gitignore
+!/.profile
 !/.ssh/config
 !/readme.md
