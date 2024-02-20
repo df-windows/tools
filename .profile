@@ -20,6 +20,11 @@ alias composer='php C:\\tools\\php\\composer'
 alias composer1='php C:\\tools\\php\\composer1'
 alias composer2='php C:\\tools\\php\\composer'
 alias composer22='php C:\\tools\\php\\composer22'
+# 2024-02-20
+# 1) "How do I run a `*.bat` script in Cygwin without specifying the `.bat` extension?": https://df.tips/t/2147
+# 2) "How do I run Sass in Cygwin?": https://df.tips/t/2146
+# 3) "How did I install Sass to Windows 10?": https://df.tips/t/2145
+alias sass='sass.bat'
 # 2023-12-24 "Install WP-CLI": https://github.com/thehcginstitute-com/167.71.186.128/issues/1
 alias wp='php C:\\tools\\php\\wp'
 [[ -f ~/.bashrc ]] && source ~/.bashrc
