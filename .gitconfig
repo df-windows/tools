@@ -1,6 +1,11 @@
 [core]
 	autocrlf = input
 	filemode = false
+	# 2024-05-31
+	# 1.1) "«invalid path» on `git clone`": https://github.com/dmitrii-fediuk/cygwin-home/issues/1
+	# 1.2) "How did I fix «invalid path» on `git clone` in Windows 10?": https://df.tips/t/2205
+	# 2) https://stackoverflow.com/a/63742773
+	protectNTFS = false
 [user]
 	name = Dmitrii Fediuk
 	email = dfediuk@gmail.com
