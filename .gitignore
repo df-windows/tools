@@ -12,3 +12,7 @@
 !/.profile
 !/.ssh/config
 !/readme.md
+# 2024-05-31
+# «warning: adding embedded git repository: .wp-cli/packages/vendor/wp-media/wp-rocket-cli»
+# https://github.com/dmitrii-fediuk/cygwin-home/issues/2
+/.wp-cli
