@@ -1,4 +1,4 @@
-# 2023-09-13 Dmitrii Fediuk https://upwork.com/fl/mage2pro
+# 2023-09-13
 # http://stackoverflow.com/questions/987142
 # http://stackoverflow.com/questions/9162919
 # http://stackoverflow.com/questions/8024924#comment15884195_8025106
@@ -6,6 +6,8 @@
 !*/
 !/.bash_profile
 !/.editorconfig
+# 2024-05-31
+!/.gitconfig
 !/.gitignore
 !/.profile
 !/.ssh/config
