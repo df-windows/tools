@@ -1,4 +1,13 @@
 # 2024-07-07 "Improve `.gitconfig`": https://github.com/dmitrii-fediuk/cygwin-home/issues/3
+[clean]
+	# 2024-07-07
+	# 1.1) https://git-scm.com/docs/git-config#Documentation/git-config.txt-cleanrequireForce
+	# 1.2) https://archive.is/ODfGl#Documentation/git-config.txt-cleanrequireForce
+	# 2.1) "«fatal: clean.requireForce defaults to true and neither -i, -n, nor -f given; refusing to clean» on `git clean`":
+	# https://github.com/dmitrii-fediuk/5.9.188.84/issues/67
+	# 2.2) "How did I fix «fatal: clean.requireForce defaults to true and neither -i, -n, nor -f given;
+	# refusing to clean» on `git clean`?": https://df.tips/t/2250
+	requireForce = false
 [core]
 	autocrlf = input
 	filemode = false
