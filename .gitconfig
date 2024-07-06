@@ -9,6 +9,8 @@
 	protectNTFS = false
 [credential]
 	helper = store
+[credential "helperselector"]
+	selected = <no helper>
 [difftool "sourcetree"]
 	cmd = '' \"$LOCAL\" \"$REMOTE\"
 [filter "lfs"]
@@ -22,7 +24,5 @@
 [user]
 	name = Dmitrii Fediuk
 	email = dfediuk@gmail.com
-[credential "helperselector"]
-	selected = <no helper>
 [safe]
 	directory = %(prefix)///wsl.localhost/Ubuntu-22.04/
