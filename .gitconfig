@@ -9,12 +9,12 @@
 	protectNTFS = false
 [difftool "sourcetree"]
 	cmd = '' \"$LOCAL\" \"$REMOTE\"
-[user]
-	name = Dmitrii Fediuk
-	email = dfediuk@gmail.com
 [mergetool "sourcetree"]
 	cmd = "'' "
 	trustExitCode = true
+[user]
+	name = Dmitrii Fediuk
+	email = dfediuk@gmail.com
 [filter "lfs"]
 	required = true
 	clean = git-lfs clean -- %f
