@@ -7,11 +7,11 @@
 	# 1.2) "How did I fix «invalid path» on `git clone` in Windows 10?": https://df.tips/t/2205
 	# 2) https://stackoverflow.com/a/63742773
 	protectNTFS = false
+[difftool "sourcetree"]
+	cmd = '' \"$LOCAL\" \"$REMOTE\"
 [user]
 	name = Dmitrii Fediuk
 	email = dfediuk@gmail.com
-[difftool "sourcetree"]
-	cmd = '' \"$LOCAL\" \"$REMOTE\"
 [mergetool "sourcetree"]
 	cmd = "'' "
 	trustExitCode = true
