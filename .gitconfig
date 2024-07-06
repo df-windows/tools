@@ -33,7 +33,11 @@
 [safe]
 	directory = %(prefix)///wsl.localhost/Ubuntu-22.04/
 [user]
-	# 2024-07-07 https://git-scm.com/docs/git-config/#Documentation/git-config.txt-useremail
+	# 2024-07-07
+	# https://git-scm.com/docs/git-config#Documentation/git-config.txt-useremail
+	# https://archive.is/ODfGl#Documentation/git-config.txt-useremail
 	email = dfediuk@gmail.com
-	# 2024-07-07 https://git-scm.com/docs/git-config/#Documentation/git-config.txt-username
+	# 2024-07-07
+	# https://git-scm.com/docs/git-config#Documentation/git-config.txt-username
+	# https://archive.is/ODfGl#Documentation/git-config.txt-username
 	name = Dmitrii Fediuk
