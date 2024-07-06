@@ -21,8 +21,8 @@
 [mergetool "sourcetree"]
 	cmd = "'' "
 	trustExitCode = true
+[safe]
+	directory = %(prefix)///wsl.localhost/Ubuntu-22.04/
 [user]
 	name = Dmitrii Fediuk
 	email = dfediuk@gmail.com
-[safe]
-	directory = %(prefix)///wsl.localhost/Ubuntu-22.04/
