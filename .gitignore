@@ -11,6 +11,8 @@
 !/.gitignore
 !/.profile
 !/.ssh/config
+!/.ssh/id_rsa.pub
+!/.ssh/key256.pub
 !/readme.md
 # 2024-05-31
 # «warning: adding embedded git repository: .wp-cli/packages/vendor/wp-media/wp-rocket-cli»
