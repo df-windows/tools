@@ -11,6 +11,11 @@
 [core]
 	autocrlf = input
 	filemode = false
+	# 2024-07-16
+	# 1) "Prevent Git from ignoring changes in a file name's letter case": https://github.com/dmitrii-fediuk/cygwin-home/issues/6
+	# 2) "How did I prevent Git from ignoring changes in a file name's letter case in Windows?": https://df.tips/t/2261
+	# 3) https://stackoverflow.com/a/17688308
+	ignorecase = false
 	# 2024-05-31
 	# 1.1) "«invalid path» on `git clone`": https://github.com/dmitrii-fediuk/cygwin-home/issues/1
 	# 1.2) "How did I fix «invalid path» on `git clone` in Windows 10?": https://df.tips/t/2205
