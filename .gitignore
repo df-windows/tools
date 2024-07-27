@@ -11,10 +11,10 @@
 !/.gitignore
 !/.profile
 !/.ssh/config
-# 2024-07-16 "Refactor `~/.ssh/*`": https://github.com/dmitrii-fediuk/cygwin-home/issues/5
+# 2024-07-16 "Refactor `~/.ssh/*`": https://github.com/df-windows/home/issues/5
 !/.ssh/keys/*.pub
 !/readme.md
 # 2024-05-31
 # «warning: adding embedded git repository: .wp-cli/packages/vendor/wp-media/wp-rocket-cli»
-# https://github.com/dmitrii-fediuk/cygwin-home/issues/2
+# https://github.com/df-windows/home/issues/2
 /.wp-cli
