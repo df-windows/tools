@@ -6,6 +6,8 @@
 !*/
 !/.editorconfig
 !/.gitignore
+# 2024-08-23
+!/php/*.bat
 # 2024-05-31
 !/shell/home/.gitconfig
 !/shell/home/.profile
