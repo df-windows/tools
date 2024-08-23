@@ -21,6 +21,7 @@ alias composer1='php C:\\tools\\php\\composer1'
 alias composer2='php C:\\tools\\php\\composer'
 alias composer22='php C:\\tools\\php\\composer22'
 # 2024-08-22 "«Could not open input file» for `magerun` in Cygwin": https://github.com/df-windows/home/issues/7
+# 2024-08-23 "How do I install `n98-magerun2` to Cygwin?": https://mage2.pro/t/6472
 alias magerun='php C:\\tools\\php\\magerun'
 # 2024-02-20
 # 1) "How do I run a `*.bat` script in Cygwin without specifying the `.bat` extension?": https://df.tips/t/2147
