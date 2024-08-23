@@ -1,1 +1,1 @@
-My home directory for Cygwin in Windows 10.
+My command-line tools for Windows.

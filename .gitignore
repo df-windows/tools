@@ -4,17 +4,20 @@
 # http://stackoverflow.com/questions/8024924#comment15884195_8025106
 *
 !*/
-!/.bash_profile
 !/.editorconfig
-# 2024-05-31
-!/.gitconfig
 !/.gitignore
-!/.profile
-!/.ssh/config
-# 2024-07-16 "Refactor `~/.ssh/*`": https://github.com/df-windows/home/issues/5
-!/.ssh/keys/*.pub
+# 2024-05-31
+!/shell/home/.gitconfig
+!/shell/home/.profile
+!/shell/home/.ssh/config
+# 2024-07-16 "Refactor `~/.ssh/*`": https://github.com/df-windows/tools/issues/5
+!/shell/home/.ssh/keys/*.pub
 !/readme.md
+# 2024-08-23 `find . -name '.git' -type d`
+/mongo/mongo-hacker
 # 2024-05-31
 # «warning: adding embedded git repository: .wp-cli/packages/vendor/wp-media/wp-rocket-cli»
-# https://github.com/df-windows/home/issues/2
-/.wp-cli
+# https://github.com/df-windows/tools/issues/2
+/shell/home/.wp-cli
+# 2024-08-23 `find . -name '.git' -type d`
+/shell/scripts
