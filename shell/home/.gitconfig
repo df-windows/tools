@@ -25,6 +25,15 @@
 	helper = store
 [credential "helperselector"]
 	selected = <no helper>
+# 2024-09-25
+# 1) If was added automatically by Git Credential Manager (https://github.com/git-ecosystem/git-credential-manager) when I typed:
+#	git clone https://gitlab2.oneclickmedia.com.au/magento/k8s-shop-naturally .
+# 2) Git Credential Manager:
+# 2.1) asked me for my login and password for `gitlab2.oneclickmedia.com.au
+# 2.2) stored them to `.git-credentials`.
+# 3) "Configure Git for `oneclickmedia.com.au`": https://github.com/df-windows/tools/issues/13
+[credential "https://gitlab2.oneclickmedia.com.au"]
+	provider = generic
 [difftool "sourcetree"]
 	cmd = '' \"$LOCAL\" \"$REMOTE\"
 [filter "lfs"]
