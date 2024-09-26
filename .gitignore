@@ -8,6 +8,7 @@
 !/.gitignore
 # 2024-09-26
 !/cygwin/etc/nsswitch.conf
+!/git/etc/nsswitch.conf
 # 2024-08-23
 !/php/*.bat
 # 2024-05-31
