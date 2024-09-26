@@ -1,18 +1,3 @@
-# System-wide profile file
-
-# Some resources...
-# Customizing Your Shell: http://www.dsl.org/cookbook/cookbook_5.html#SEC69
-# Consistent BackSpace and Delete Configuration:
-#   http://www.ibb.net/~anne/keyboard.html
-# The Linux Documentation Project: https://www.tldp.org/
-# The Linux Cookbook: https://www.tldp.org/LDP/linuxcookbook/html/
-# Greg's Wiki https://mywiki.wooledge.org/
-
-# Setup some default paths. Note that this order will allow user installed
-# software to override 'system' software.
-# Modifying these default path settings can be done in different ways.
-# To learn more about startup files, refer to your shell's man page.
-
 MSYS2_PATH="/usr/local/bin:/usr/bin:/bin"
 MANPATH='/usr/local/man:/usr/share/man:/usr/man:/share/man'
 INFOPATH='/usr/local/info:/usr/share/info:/usr/info:/share/info'
