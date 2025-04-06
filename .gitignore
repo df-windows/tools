@@ -19,7 +19,10 @@
 # 2024-07-16 "Refactor `~/.ssh/*`": https://github.com/df-windows/tools/issues/5
 !/shell/home/.ssh/keys/*.pub
 !/readme.md
-# 2025-04-06 https://gemini.google.com/u/1/app/de95853eeeb45648
+# 2025-04-06
+# 1) https://gemini.google.com/u/1/app/de95853eeeb45648
+# 2) https://github.com/MestreLion/git-tools
+# 3) https://chatgpt.com/c/67f29390-b418-8003-9860-0e2cbddfcb97
 /git-tools
 # 2024-08-23 `find . -name '.git' -type d`
 /mongo/mongo-hacker
