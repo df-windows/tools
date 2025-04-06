@@ -20,6 +20,10 @@ alias composer='php C:\\tools\\php\\composer'
 alias composer1='php C:\\tools\\php\\composer1'
 alias composer2='php C:\\tools\\php\\composer'
 alias composer22='php C:\\tools\\php\\composer22'
+# 2025-04-06
+# 1) https://github.com/MestreLion/git-tools
+# 2) https://chatgpt.com/c/67f29390-b418-8003-9860-0e2cbddfcb97
+alias git-restore-mtime='python C:/tools/git-tools/git-restore-mtime'
 # 2024-08-22 "«Could not open input file» for `magerun` in Cygwin": https://github.com/df-windows/home/issues/7
 # 2024-08-23 "How do I install `n98-magerun2` to Cygwin?": https://mage2.pro/t/6472
 alias magerun='php C:\\tools\\php\\magerun'
