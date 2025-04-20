@@ -14,7 +14,11 @@
 !/php/*.bat
 # 2024-05-31
 !/shell/home/.gitconfig
+# 2025-04-20
+!/shell/home/.inputrc
+# 2024-05-31
 !/shell/home/.profile
+# 2024-05-31
 !/shell/home/.ssh/config
 # 2024-07-16 "Refactor `~/.ssh/*`": https://github.com/df-windows/tools/issues/5
 !/shell/home/.ssh/keys/*.pub

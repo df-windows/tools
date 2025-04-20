@@ -1,0 +1,6 @@
+# 2025-04-20 Dmitrii Fediuk https://www.upwork.com/fl/mage2pro
+# 1.1) https://github.com/mintty/mintty/wiki/Tips#user-content-readline-configuration
+# 1.2) https://archive.is/DgWeB#selection-3589.0-3589.22
+# 2) `bind -v | grep enable-bracketed-paste`
+# https://gemini.google.com/u/1/app/dc9ea7d019019388
+set enable-bracketed-paste on
