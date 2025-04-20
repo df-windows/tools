@@ -1,6 +1,22 @@
 # 2025-04-20 Dmitrii Fediuk https://www.upwork.com/fl/mage2pro
-# 1.1) https://github.com/mintty/mintty/wiki/Tips#user-content-readline-configuration
-# 1.2) https://archive.is/DgWeB#selection-3589.0-3589.22
-# 2) `bind -v | grep enable-bracketed-paste`
-# https://gemini.google.com/u/1/app/dc9ea7d019019388
+# 1) "How did I prevent Mintty (Cygwin) from breaking my multiline Bash scripts when pasting?"
+# https://df.tips/t/2635
+# 2) «When set to ‘On’, Readline configures the terminal
+# to insert each paste into the editing buffer as a single string of characters,
+# instead of treating each character as if it had been read from the keyboard.
+# This is called putting the terminal into bracketed paste mode;
+# it prevents Readline from executing any editing commands
+# bound to key sequences appearing in the pasted text.
+# The default is ‘On’.»
+# https://tiswww.case.edu/php/chet/readline/rluserman.html#index-enable_002dbracketed_002dpaste
+# https://archive.is/LYzya#selection-2059.0-2059.22
+# 3) https://cirw.in/blog/bracketed-paste
+# 4) «When bracketed paste mode is set, pasted text is bracketed with control sequences
+# so that the program can differentiate pasted text from typed-in text.»
+# https://www.xfree86.org/current/ctlseqs.html#Bracketed%20Paste%20Mode
+# https://archive.is/mQiK1#Bracketed%20Paste%20Mode
+# 5.1) https://github.com/mintty/mintty/wiki/Tips#user-content-readline-configuration
+# 5.2) https://archive.is/DgWeB#selection-3589.0-3589.22
+# 6) How to check the current value of the mode:
+# 		`bind -v | grep enable-bracketed-paste`
 set enable-bracketed-paste on
