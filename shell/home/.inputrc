@@ -1,5 +1,5 @@
 # 2025-04-20 Dmitrii Fediuk https://www.upwork.com/fl/mage2pro
-# 1) "How did I prevent Mintty (Cygwin) from breaking my multiline Bash scripts when pasting?"
+# 1) "How did I prevent a Bash / Readline shell from breaking my multiline scripts when pasting?"
 # https://df.tips/t/2635
 # 2) «When set to ‘On’, Readline configures the terminal
 # to insert each paste into the editing buffer as a single string of characters,
@@ -11,12 +11,14 @@
 # https://tiswww.case.edu/php/chet/readline/rluserman.html#index-enable_002dbracketed_002dpaste
 # https://archive.is/LYzya#selection-2059.0-2059.22
 # 3) https://cirw.in/blog/bracketed-paste
+# 3.1) https://archive.is/G3czT#selection-135.0-147.1
 # 4) «When bracketed paste mode is set, pasted text is bracketed with control sequences
 # so that the program can differentiate pasted text from typed-in text.»
 # https://www.xfree86.org/current/ctlseqs.html#Bracketed%20Paste%20Mode
 # https://archive.is/mQiK1#Bracketed%20Paste%20Mode
 # 5.1) https://github.com/mintty/mintty/wiki/Tips#user-content-readline-configuration
 # 5.2) https://archive.is/DgWeB#selection-3589.0-3589.22
-# 6) How to check the current value of the mode:
+# 6) "How to check the current value of the `enable-bracketed-paste` option in Bash / Readline?":
 # 		`bind -v | grep enable-bracketed-paste`
+# https://df.tips/t/2636
 set enable-bracketed-paste on
