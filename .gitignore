@@ -18,6 +18,8 @@
 !/shell/home/.inputrc
 # 2024-05-31
 !/shell/home/.profile
+# 2025-05-18
+!/shell/home/.ssh/clients
 # 2024-05-31
 !/shell/home/.ssh/config
 # 2024-07-16 "Refactor `~/.ssh/*`": https://github.com/df-windows/tools/issues/5
