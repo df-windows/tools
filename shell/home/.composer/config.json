@@ -1,4 +1,4 @@
 {
 	"config": {"process-timeout": 3600}
-	,"repositories": [{"canonical": "false", "type": "composer", "url": "https://repo.magento.com/"}]
+	,"repositories": [{"canonical": false, "type": "composer", "url": "https://repo.magento.com/"}]
 }
