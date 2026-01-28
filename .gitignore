@@ -12,6 +12,17 @@
 !/git/etc/profile
 # 2024-08-23
 !/php/*.bat
+# 2026-01-28
+# 1.1) «Root composer.json requires fooman/emailattachments-m2 3.6.1,
+# it is satisfiable <…> from <…> (https://repo.packagist.org) <…>
+# but <…> (https://repo.magento.com) has higher repository priority»:
+# https://github.com/keyclampstore-com/m/issues/18
+# 1.2) How did I fix «Root composer.json requires fooman/emailattachments-m2 3.6.1,
+# it is satisfiable <…> from <…> (https://repo.packagist.org) <…>
+# but <…> (https://repo.magento.com) has higher repository priority»?
+# https://mage2.pro/t/6528
+# 2) https://getcomposer.org/doc/articles/repository-priorities.md#making-repositories-non-canonical
+!/shell/home/.composer/config.json
 # 2024-05-31
 !/shell/home/.gitconfig
 # 2025-04-20

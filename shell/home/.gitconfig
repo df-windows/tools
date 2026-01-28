@@ -16,6 +16,8 @@
 	# 2) "How did I prevent Git from ignoring changes in a file name's letter case in Windows?": https://df.tips/t/2261
 	# 3) https://stackoverflow.com/a/17688308
 	ignorecase = false
+	# 2026-01-25 https://gemini.google.com/share/76dbb3b96e8b
+	longpaths = true
 	# 2024-05-31
 	# 1.1) "«invalid path» on `git clone`": https://github.com/df-windows/home/issues/1
 	# 1.2) "How did I fix «invalid path» on `git clone` in Windows 10?": https://df.tips/t/2205
